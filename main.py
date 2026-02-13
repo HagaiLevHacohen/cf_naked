@@ -57,7 +57,7 @@ async def main():
     with open("cookies.txt", "w", encoding="utf-8") as f:
         f.write(cookies_line)
 
-    # await browser.stop()
+    await browser.stop()
 
 
 if __name__ == '__main__':
